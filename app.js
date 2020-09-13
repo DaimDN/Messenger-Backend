@@ -21,7 +21,7 @@ const MessageModel = mongoose.model('Messages', MessageSchema);
 
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://master.d2abik05ihi77k.amplifyapp.com/',
   credentials: true
 }));
 
