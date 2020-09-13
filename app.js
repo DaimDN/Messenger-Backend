@@ -5,7 +5,7 @@ const parser = require('body-parser');
 const logger = require('morgan');
 const cors = require('cors');
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/Messenger', {
+mongoose.connect('mongodb+srv://Auto1:task@nodejs.2j0z7.mongodb.net/Messenger?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
