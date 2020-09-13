@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -15,5 +15,22 @@
     "http-errors": "~1.6.3",
     "mongoose": "^5.10.5",
     "morgan": "~1.9.1"
-  }
+  },
+  "engines": {
+    "node": "14.5.0",
+    "npm" : "6.14.5"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaimDN/Messenger-Backend.git"
+  },
+  "author": "A.daim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaimDN/Messenger-Backend/issues"
+  },
+  "homepage": "https://github.com/DaimDN/Messenger-Backend#readme",
+  "description": ""
 }
